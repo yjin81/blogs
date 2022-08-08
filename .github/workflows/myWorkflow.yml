@@ -28,4 +28,3 @@ jobs:
         run: |
          chmod +x .github/workflows/monitoring_compliance_assessments.sh
          .github/workflows/monitoring_compliance_assessments.sh
-      shell: bash
