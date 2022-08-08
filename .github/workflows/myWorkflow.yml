@@ -25,4 +25,7 @@ jobs:
 
       # Runs a single command using the runners shell
       - name: Run a shell script
-        run: .github/workflows/monitoring_compliance_assessments.sh
+        run: |
+         chmod +x .github/workflows/monitoring_compliance_assessments.sh
+         .github/workflows/monitoring_compliance_assessments.sh
+      shell: bash
